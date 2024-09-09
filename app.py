@@ -4,6 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 app = Dash(__name__)
+app.title = "MCM7183 Exercise 3"
 server = app.server
 
 df = pd.read_csv("https://raw.githubusercontent.com/CHEAH80/MCM7183Exercise3/main/assets/gdp_1960_2020.csv")
