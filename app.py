@@ -8,7 +8,7 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 app.title = "MCM7183 Exercise 3"
 server = app.server
 
-df = pd.read_csv("https://raw.githubusercontent.com/wenjiun/MCM7183Exercise3/main/assets/gdp_1960_2020.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/CHEAH80/MCM7183Exercise3/main/assets/gdp_1960_2020.csv")
 
 image_path = 'assets/logo-mmu.png'
 
